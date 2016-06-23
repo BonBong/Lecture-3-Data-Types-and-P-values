@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "---\noutput: word_document\n---\n#**Lecture 3 Biostatistics Notes**\n\n##**Measurement Scales**\n###Ordinal Scales \n* Allow ordering or measurement  \n* Do not allow assessment of relative degree difference between items\n\n###Interval Scales\n* No _true zero_\n* Allow assessment of relative degree of difference between items\n* Do not allow assessment of the ratio between items\n\n###Ratio Scales\n* Have a _true zero_\n* Allow assessment of relative degree of difference between items\n* Allow the assessment of the ratio between item\n\n##**Remember what statistics is:**\n\"The science of learning generalizable knowlegde from data.\". It is about inference.\n\n##**Type of data matters**\n###The distribution of the measured variable depends on:  \n\n* The probability distribution of the variable in the population.\n\n* The sample size\n* Sampling procedure (e.g., probability vs non-probability sampling)\n* The level of measurement (e.g., count, continuous)\n\n###The Normal Distribution\n####**How do I know when my data follow a Gaussian distribution?**\n* Consider the source of scatter.  \n* Look at data (outliers?).  \n* Consider type of data (rank or score?).  \n* Use tests for normality (e.g. chi-square, Kolmogorov-Smironov) (_large saples only_).  \n* Look at all data available.\n\n\n##**SD vs SEM:**\n* SD refers to the variability (dispersion) between individual observations.  \n* SEM refers to the precision with which the sample mean estimates the population mean. The precision of estimation which increases as sample size increases.\n\n###Central Limit Theorem\nThe distribution of sample means (SEM) has an approximate normal distribution, no matter what the distribution of the original data looks like, as long as the sample size is large enough (usually at least 30), and all samples have the same size. \n\n###P-value\n* Is a rough numerical guide as to the strenght of evidence against the null hypothesis. It is not the probability as to the trueness of given null hypothesis, nor the falseness of the alternative hypothesis. And furthermore, it does not report on the magnitude or importance of any given observation. \n\n###Type alpha and beta statistical errors\n* Type Alpha: claiming significance when there isn't. Alpha=0.05\n* Type Beta: claiming no significance when there is. Beta=1-alpha\n* Power: refers to the power of detecting a true difference between two populations. _Power_=1-beta.  \n\n\n \n\n",
+    "created" : 1466655291562.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3443906126",
+    "id" : "60C59BF8",
+    "lastKnownWriteTime" : 1466655879,
+    "last_content_update" : 1466655879760,
+    "path" : "~/STATS STUFF/Practise/Lecture 3 Data Types and P Values/Lecture 3Types of data and What are pvalues.md",
+    "project_path" : null,
+    "properties" : {
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "markdown"
+}
